@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Poppins', sans-serif;
+  color: #22252b;
+  background: #edf0f6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  min-width: 0;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #f6f7f9;
+  color: #22252b;
+}
+
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+  min-width: 0;
+}
+
+table {
+  width: 100%;
+}
+
+.text-wrap-safe {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.input-base {
+  @apply w-full rounded-[6px] border border-[#d1d5db] bg-white px-4 py-3 outline-none transition focus:border-[#111827] focus:ring-2 focus:ring-[#111827]/10;
+}
+
+.btn-primary {
+  @apply rounded-[6px] bg-[#111827] px-5 py-3 text-white transition hover:bg-[#374151] disabled:cursor-not-allowed disabled:opacity-60;
+}
+
+.panel-card {
+  @apply rounded-[8px] border border-[#e5e7eb] bg-white;
+}
+
+.glass-card {
+  @apply rounded-[8px] border border-[#e5e7eb] bg-white;
+}
+
+@media (max-width: 640px) {
+  .responsive-table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .responsive-table table {
+    min-width: 560px;
+  }
+
+  .mobile-card {
+    padding: 1rem;
+  }
+}

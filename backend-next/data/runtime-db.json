@@ -1,0 +1,184 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Nongsaibam Tazkhan",
+      "email": "demo@taskflow.ai",
+      "password": "123456",
+      "role": "Admin",
+      "firstName": "Nongsaibam",
+      "lastName": "Tazkhan",
+      "contactNumber": "+91 98765 43210",
+      "position": "Project Manager",
+      "avatar": "/images/avatar.png",
+      "joinedAt": "2026-01-05"
+    },
+    {
+      "id": 2,
+      "name": "Nongsaibam Tazkhan",
+      "email": "nongsaibamtazkhan@gmail.com",
+      "password": "taz60099",
+      "role": "Member",
+      "firstName": "Nongsaibam",
+      "lastName": "Tazkhan",
+      "contactNumber": "",
+      "position": "Team Member",
+      "joinedAt": "2026-04-23"
+    },
+    {
+      "id": 3,
+      "name": "Google User",
+      "email": "google.user@taskflow.local",
+      "password": "social-google",
+      "role": "Member",
+      "firstName": "Google",
+      "lastName": "User",
+      "contactNumber": "",
+      "position": "Google Account",
+      "provider": "Google",
+      "joinedAt": "2026-04-23"
+    },
+    {
+      "id": 4,
+      "name": "Facebook User",
+      "email": "facebook.user@taskflow.local",
+      "password": "social-facebook",
+      "role": "Member",
+      "firstName": "Facebook",
+      "lastName": "User",
+      "contactNumber": "",
+      "position": "Facebook Account",
+      "provider": "Facebook",
+      "joinedAt": "2026-04-23"
+    },
+    {
+      "id": 5,
+      "name": "X User",
+      "email": "x.user@taskflow.local",
+      "password": "social-x",
+      "role": "Member",
+      "firstName": "X",
+      "lastName": "User",
+      "contactNumber": "",
+      "position": "X Account",
+      "provider": "X",
+      "joinedAt": "2026-04-23"
+    },
+    {
+      "id": 6,
+      "name": "Test User",
+      "email": "test1776960015575@example.com",
+      "password": "123456",
+      "role": "Member",
+      "firstName": "Test",
+      "lastName": "User",
+      "contactNumber": "",
+      "position": "Team Member",
+      "joinedAt": "2026-04-23"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Attend Nischal's Birthday Party",
+      "description": "Buy gifts on the way and pick up cake from the bakery. (6 PM | Fresh Elements).....",
+      "dueDate": "2026-06-20",
+      "createdAt": "2026-06-20",
+      "priority": "Moderate",
+      "status": "Not Started",
+      "category": "Personal",
+      "assignee": "Nadia",
+      "thumbnail": "celebration",
+      "dotColor": "#15803d"
+    },
+    {
+      "id": 2,
+      "title": "Landing Page Design for TravelDays",
+      "description": "Get the work done by EOD and discuss with client before leaving. (4 PM | Meeting Room)",
+      "dueDate": "2026-06-20",
+      "createdAt": "2026-06-20",
+      "priority": "Moderate",
+      "status": "In Progress",
+      "category": "Design",
+      "assignee": "Maya",
+      "thumbnail": "laptop"
+    },
+    {
+      "id": 4,
+      "title": "Presentation on Final Product",
+      "description": "Make sure everything is functioning and all the necessities are properly met. Prepare the team and get the documents ready for...",
+      "dueDate": "2026-06-19",
+      "createdAt": "2026-06-19",
+      "priority": "Moderate",
+      "status": "In Progress",
+      "category": "Work",
+      "assignee": "Owen",
+      "thumbnail": "meeting"
+    },
+    {
+      "id": 7,
+      "title": "Submit Documents",
+      "description": "Make sure to submit all the necessary docum.....",
+      "dueDate": "2026-06-20",
+      "createdAt": "2026-06-20",
+      "priority": "Extreme",
+      "status": "Not Started",
+      "category": "Admin",
+      "assignee": "Sundar",
+      "thumbnail": "documents",
+      "objective": "To submit required documents for something important",
+      "details": "Review the list of documents required for submission and ensure all necessary documents are ready. Organize the documents accordingly and scan them if physical copies need to be submitted digitally. Rename the scanned files appropriately for easy identification and verify the accepted file formats. Upload the documents securely to the designated platform, double-check for accuracy, and obtain confirmation of successful submission. Follow up if necessary to ensure proper processing.",
+      "notes": [
+        "Ensure that the documents are authentic and up-to-date.",
+        "Maintain confidentiality and security of sensitive information during the submission process.",
+        "If there are specific guidelines or deadlines for submission, adhere to them diligently."
+      ],
+      "deadlineNote": "End of Day"
+    },
+    {
+      "id": 8,
+      "title": "Complete assignments",
+      "description": "The assignments must be completed to pass final year....",
+      "dueDate": "2026-06-20",
+      "createdAt": "2026-06-20",
+      "priority": "Moderate",
+      "status": "In Progress",
+      "category": "Study",
+      "assignee": "Sundar",
+      "thumbnail": "assignments",
+      "objective": "Complete the pending coursework and review all open deliverables",
+      "details": "Finish the remaining assignments, review the rubric carefully, and make sure each deliverable is formatted correctly before submission.",
+      "notes": [
+        "Check grading requirements before uploading files.",
+        "Proofread answers and attach supporting material where needed."
+      ],
+      "deadlineNote": "Before class review"
+    }
+  ],
+  "members": [
+    {
+      "id": 1,
+      "name": "Upashna Gurung",
+      "email": "upaeygrg332@gmail.com",
+      "role": "Can edit"
+    },
+    {
+      "id": 2,
+      "name": "Jeremy Lee",
+      "email": "jerrylee1996@gmail.com",
+      "role": "Can edit"
+    },
+    {
+      "id": 3,
+      "name": "Thomas Park",
+      "email": "parktho123@gmail.com",
+      "role": "Owner"
+    },
+    {
+      "id": 4,
+      "name": "Rachel Takahasi",
+      "email": "takahasirae32@gmail.com",
+      "role": "Can edit"
+    }
+  ]
+}
